@@ -78,11 +78,11 @@ while true; do
     echo -e "${R}â•‘${Y}                    MAIN OPTIONS                      ${R}â•‘${N}"
     echo -e "${R}â•šâ•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•${N}\n"
     
-      print_option "1" "ðŸš€ GitHub VPS Maker" ""
-      print_option "2" "ðŸ”§ IDX Tool Setup" ""
-      print_option "3" "âš¡ IDX VPS Maker" ""
-      print_option "4" "ðŸŒ Real VPS (Any + KVM)" ""
-      print_option "5" "Exit" ""
+      print_option "1" "ðŸš€ GitHub VPS Maker" "$R"
+      print_option "2" "ðŸ”§ IDX Tool Setup" "$R"
+      print_option "3" "âš¡ IDX VPS Maker" "$R"
+      print_option "4" "Real VPS (Any + KVM)" "$R"
+      print_option "5" "Exit" "$R"
 
     
     print_divider
